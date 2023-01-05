@@ -1,0 +1,76 @@
+@import "../../Global-variable.scss";
+.description{
+    background: url("../../Assets/images/bg-content.jpg") !important;
+    background-size: 100%; 
+    background-repeat: no-repeat !important;
+    transform: translateY(-10px);
+    padding: 20px 0px;
+   &-cards{
+    padding: 0px 100px;
+   }
+   &-title1{
+    color: $brown-text;
+    text-transform: uppercase;
+    font-weight: 650;
+    font-size: 25px;
+    letter-spacing: -1.5px; 
+}
+    &-sub-title{
+        color: $orange-text;
+        font-family: $secondary-font;
+        font-size: 60px;
+        margin-top: -15px;
+        
+    }
+    &-sub-title::after {
+        content: " ";
+        position: relative;
+        display: block;
+        width: 50%;
+        height: 4px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        border-top: 0.5px solid  $beige-text;
+        border-bottom: 0.5px solid  $beige-text;
+        z-index: -1;
+    
+      }
+      &-text{
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 15px;
+      
+      }
+&-title{
+    color: $orange-text;
+    text-transform: uppercase;
+    font-weight: 650;
+    font-size: 22px;
+    letter-spacing: -1.5px;
+    display: inline;
+
+}
+.line {
+        display: inline-block;
+        width: 7%;
+        height: 4px;
+        border-top: 0.5px solid  $beige-text;
+        border-bottom: 0.5px solid  $beige-text;
+        z-index: -1;
+        transform: translateY(-5px);
+    
+      }
+}
+
+
+.simpleText{
+
+    font-weight: lighter;
+}
+
+.grasText{
+   font-weight:bold;
+}

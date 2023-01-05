@@ -1,0 +1,62 @@
+@import "../../Global-variable.scss";
+.gallerie{
+  background-image: url("../../Assets//images/bg-galerie.jpg");
+  background-repeat: repeat;
+  
+  &-title{
+    color: $brown-text;
+    text-transform: uppercase;
+    font-weight: 650;
+    font-size: 25px;
+    letter-spacing: -1.5px; 
+    margin: 0 10px;
+}
+  button{
+    border:none;
+    background-color: transparent;
+    justify-content: center;
+    justify-items: center;
+    margin: 80px 0;
+    display: flex;
+  }
+  &-contain{
+  padding: 20px 100px;
+}
+}
+
+
+.img-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+
+  &-item{
+    margin: 20px;
+    position: relative;
+    border: 1px solid $beige-text;
+    padding: 7px;
+    background-color: white;
+  }
+  &-item:hover .logoHover{
+    display: block;
+  }
+
+}
+.line {
+  display: inline-block;
+  width: 7%;
+  height: 4px;
+  border-top: 0.5px solid  $beige-text;
+  border-bottom: 0.5px solid  $beige-text;
+  z-index: -1;
+  transform: translateY(-5px);
+
+}
+.logoHover{
+  position: absolute;
+  z-index: 10000;
+  transform: translate(10px,-140px);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 55px;
+  display: none;
+}

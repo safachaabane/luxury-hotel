@@ -1,0 +1,76 @@
+@import "../../Global-variable.scss";
+.carditem{
+    margin: 15px 0px;
+    .btn{
+        background-color: transparent;
+        border: none;
+        text-transform: uppercase;
+        color:  $brown-background1;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+    .line-btn{
+        width: 45% !important;
+        height: 4px;
+        border-top: 6px solid   $brown-background1;
+       justify-content: center;
+       margin: auto;
+
+    }
+   
+}
+.line-title {
+    width: 100% !important;
+    height: 4px;
+    border-top: 0.5px solid  $beige-text;
+    border-bottom: 0.5px solid  $beige-text;
+    z-index: -1;
+    margin: 20px 0px;
+  }
+.card{
+    border-radius: 0%;
+    border: none;
+}
+.card-title {
+ color: $brown-text;
+ font-weight: 700;
+ font-size: 30px;
+  }
+  .card-body{
+    background-color: $beige-background;
+    border-radius: 0%;
+  }
+  .card-footer{
+    background-color: $brown-background1;
+    border-radius: 0% !important;
+  }
+  .card-img-top{
+    border-radius: 0%;
+  }
+  .card-col:nth-child(2n) .card-title{
+    color:$beige-text !important
+  }
+  .card-col:nth-child(2n) .card-body{
+    background-color:$brown-background1 !important;
+    color:white !important;
+  }
+  .card-col:nth-child(2n) .card-footer{
+    background-color: $brown-background2;
+  }
+  .card-col:nth-child(2n) .line-title {
+    border-top: 0.5px solid  $brown-background2;
+    border-bottom: 0.5px solid  $brown-background2;
+  }
+
+  .card-col:nth-child(2n) .btn{
+   
+    color: $beige-text !important;
+  
+}
+.card-col:nth-child(2n) .line-btn{
+
+    border-top: 6px solid   $beige-text !important;
+ 
+
+}
