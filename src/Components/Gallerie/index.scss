@@ -64,3 +64,9 @@
   padding: 40px 55px;
   display: none;
 }
+.gallerie-button-next{
+  transform: translate(40px);
+@media screen and (max-width: 992px) { 
+transform: translate(-20px);
+  }
+}

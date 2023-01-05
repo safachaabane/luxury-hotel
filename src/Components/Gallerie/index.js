@@ -35,7 +35,7 @@ function Gallerie() {
     
     <Row>
   <Col xs={1}>
-        <button
+        <button 
           onClick={() => {
             handleHorizantalScroll(elementRef.current, 25, 100, -230);
           }}
@@ -64,6 +64,7 @@ function Gallerie() {
       </Col>
       <Col xs={1}>
       <button
+      className='gallerie-button-next'
           onClick={() => {
             handleHorizantalScroll(elementRef.current, 25, 100, 230);
           }}

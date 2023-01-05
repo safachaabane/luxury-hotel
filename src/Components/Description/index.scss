@@ -23,6 +23,9 @@
         font-family: $secondary-font;
         font-size: 60px;
         margin-top: -15px;
+        @media screen and (max-width: 992px) {
+            font-size: 30px;
+          }
         
     }
     &-sub-title::after {
