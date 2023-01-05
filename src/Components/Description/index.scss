@@ -7,6 +7,9 @@
     padding: 20px 0px;
    &-cards{
     padding: 0px 100px;
+    @media screen and (max-width: 992px) {
+        padding: 0px 0px;
+      }
    }
    &-title1{
     color: $brown-text;
@@ -34,7 +37,9 @@
         border-top: 0.5px solid  $beige-text;
         border-bottom: 0.5px solid  $beige-text;
         z-index: -1;
-    
+        @media screen and (max-width: 992px) {
+            width: 80%;
+          }
       }
       &-text{
         width: 50%;
@@ -42,7 +47,9 @@
         justify-content: center;
         margin: auto;
         padding-bottom: 15px;
-      
+        @media screen and (max-width: 992px) {
+            width: 80%;
+          }
       }
 &-title{
     color: $orange-text;
